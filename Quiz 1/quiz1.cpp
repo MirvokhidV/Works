@@ -3,8 +3,6 @@
 using namespace std;
 int main()
 {
-	string name;
-	cout << "Input your name: "; cin >> name;
 	int num, digit,j=0,ans,ans1,num1,m;
 	cout << "Enter number: "; cin >> num;
 	if (num<0)
@@ -25,8 +23,10 @@ int main()
 	}
 	if (j==10)
 	{
+		cout << endl;
 		cout << "Your number is too large, the program might work wrongly" << endl;
 	}
+	cout << endl;
 	cout << num << " has " << j << " digits" << endl;
 	cout << " " << endl;
 	for (int k = pow(10,j); k >=0 ; k/=10)
