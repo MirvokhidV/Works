@@ -1,2 +1,2 @@
 # Pattern-numbers
-there are a few codes in this reprositary
+Homeworks, own projects, quizes from python and c++
